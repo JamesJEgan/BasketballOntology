@@ -139,7 +139,7 @@ cco:OccupationRole rdf:type owl:Class ;
 ###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000006
 :BBO_000006 rdf:type owl:Class ;
             rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000005> ;
-            obo:IAO_0000115 "an onBallAct that is performed by a player when they attempt to propel the ball into the opponents hoop."@en ;
+            obo:IAO_0000115 "an onBallAct that is performed by a player when they attempt to propel the ball into the hoop."@en ;
             rdfs:label "shotAct"@en .
 
 
