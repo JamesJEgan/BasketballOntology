@@ -93,12 +93,6 @@ cco:IntentionalAct rdf:type owl:Class ;
                    cco:is_curated_in_ontology "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology"^^xsd:anyURI ;
                    rdfs:label "Planned Act"@en .
 
-###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000001
-<http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000001> rdf:type owl:Class ;
-                                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
-                                                                                       obo:IAO_0000115 "an intentionalAct that represents any action deliberately performed by an individual during amatch."@en ;
-                                                                                       rdfs:comment "These actions can range from playing actions (like shooting, passing, or dribbling) performed by players, to strategic decisions and instructions given by coaches, to rulings and decisions made by referees."@en ;
-                                                                                       rdfs:label "intentionalMatchAct"@en .
 
 ###  http://www.ontologyrepository.com/CommonCoreOntologies/OccupationRole
 cco:OccupationRole rdf:type owl:Class ;
@@ -107,7 +101,67 @@ cco:OccupationRole rdf:type owl:Class ;
                    rdfs:label "Occupation Role"@en .
 
 
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000001
+<http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000001> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct> ;
+                                                                                       obo:IAO_0000115 "an intentionalAct that represents any action deliberately performed by an individual during a match."@en ;
+                                                                                       rdfs:comment "These actions can range from playing actions (like shooting, passing, or dribbling) performed by players, to strategic decisions and instructions given by coaches, to rulings and decisions made by referees."@en ;
+                                                                                       rdfs:label "intentionalMatchAct"@en .
 
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000002
+<http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000002> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000001> ;
+                                                                                       obo:IAO_0000115 "an intentionalMatchAct that represents any action performed intentionally by a player during a match."@en ;
+                                                                                       rdfs:label "playerAct"@en .
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000003
+<http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000003> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000002> ;
+                                                                                       obo:IAO_0000115 "a playerAct that involves actions performed by players actively participating in the match."@en ;
+                                                                                       rdfs:label "selectedPlayerAct"@en .
+
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000004
+:BBO_000004 rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000003> ;
+            obo:IAO_0000115 "a selectedPlayerAct that involves actions executed by players of the team that currently has control of the ball."@en ;
+            rdfs:label "inPossessionAct"@en .
+
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000005
+:BBO_000005 rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000004> ;
+            obo:IAO_0000115 "an inPossessionAct that involves a player maintaining control of the ball during the match."@en ;
+            rdfs:label "onBallAct"@en .
+
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000006
+:BBO_000006 rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000005> ;
+            obo:IAO_0000115 "an onBallAct that is performed by a player when they attempt to propel the ball into the opponents hoop."@en ;
+            rdfs:label "shotAct"@en .
+
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000007
+:BBO_000007 rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000006> ;
+            obo:IAO_0000115 "any shotAct that is performed by a player that is not a free throw."@en ;
+            rdfs:label "fieldGoalShotAct"@en .
+
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000008
+:BBO_000008 rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000006> ;
+            obo:IAO_0000115 "a shotAct by a player located behind the free throw line that is unnaposed by the other team and is awarded as a penalty ."@en ;
+            rdfs:label "freeThrowShotAct"@en .
+
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000009
+:BBO_000009 rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000007> ;
+            obo:IAO_0000115 "a fieldGoalShotAct by a player located behind the three point line."@en ;
+            rdfs:label "threePointShotAct"@en .
 
 
 
