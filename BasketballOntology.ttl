@@ -75,7 +75,6 @@ cco:Agent rdf:type owl:Class ;
                                                    ) ;
                                 rdf:type owl:Class
                               ] ;
-          rdfs:subClassOf obo:BFO_0000040 ;
           cco:definition "A Material Entity that is capable of performing Planned Acts"@en ;
           cco:is_curated_in_ontology "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"^^xsd:anyURI ;
           rdfs:label "Agent"@en .
@@ -83,7 +82,6 @@ cco:Agent rdf:type owl:Class ;
 
 ###  http://www.ontologyrepository.com/CommonCoreOntologies/Artifact
 cco:Artifact rdf:type owl:Class ;
-             rdfs:subClassOf obo:BFO_0000040 ;
              cco:definition "A Material Entity that was designed by some Agent to realize a certain Function."@en ;
              cco:is_curated_in_ontology "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology"^^xsd:anyURI ;
              rdfs:label "Material Artifact"@en .
@@ -120,7 +118,6 @@ cco:IntentionalAct rdf:type owl:Class ;
 
 ###  http://www.ontologyrepository.com/CommonCoreOntologies/OccupationRole
 cco:OccupationRole rdf:type owl:Class ;
-                   rdfs:subClassOf obo:BFO_0000023 ;
                    cco:definition "A Role that inheres in an Agent in virtue of the responsibilities that Agent is expected to fulfill within the context of some Act of Employment."@en ;
                    cco:is_curated_in_ontology "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"^^xsd:anyURI ;
                    rdfs:label "Occupation Role"@en .
