@@ -174,14 +174,14 @@ cco:OccupationRole rdf:type owl:Class ;
 ###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000010
 :BBO_000010 rdf:type owl:Class ;
             rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/OccupationRole> ;
-            obo:IAO_0000115 "an Occupation Role that inheres in a professional player for a basketball team."@en ;
+            obo:IAO_0000115 "an Occupation Role that inheres in a person who is a professional player for a basketball team."@en ;
             rdfs:label "basketballPlayerRole"@en .
 
 
 ###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000011
 :BBO_000011 rdf:type owl:Class ;
             rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000010> ;
-            obo:IAO_0000115 "a basketballPlayerRole that inheres in a player for the NBA."@en ;
+            obo:IAO_0000115 "a basketballPlayerRole that inheres in a person who is a player for the NBA."@en ;
             rdfs:label "NBATeamPlayerRole"@en .
 
 
