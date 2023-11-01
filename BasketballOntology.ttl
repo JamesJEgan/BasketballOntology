@@ -221,13 +221,13 @@ obo:BFO_0000035 rdf:type owl:Class ;
 ###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000016
 <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000016> rdf:type owl:Class ;
             rdfs:subClassOf obo:BFO_0000035 ;
-            obo:IAO_0000115 "A process boundary that marks the beginning of a game or sports event."@en ;
+            obo:IAO_0000115 "A process boundary that marks the beginning of a basketball game event."@en ;
             rdfs:label "GameStart"@en .
 
 ###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000017
 :BBO_000017 rdf:type owl:Class ;
             rdfs:subClassOf obo:BFO_0000035 ;
-            obo:IAO_0000115 "A process boundary that marks the end of a game or sports event."@en ;
+            obo:IAO_0000115 "A process boundary that marks the end of a basketball game event."@en ;
             rdfs:label "GameEnd"@en .
 
 
