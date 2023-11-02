@@ -118,6 +118,14 @@ cco:MeasurementInformationContentEntity rdf:type owl:Class ;
                                         rdfs:label "Measurement Information Content Entity"@en .
 
 
+###  http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementUnit
+cco:MeasurementUnit rdf:type owl:Class ;
+                    rdfs:subClassOf cco:DescriptiveInformationContentEntity ;
+                    cco:definition "A Descriptive Information Content Entity that describes a definite magnitude of a physical quantity, defined and adopted by convention and/or by law, that is used as a standard for measurement of the same physical quantity."@en ;
+                    cco:definition_source "https://en.wikipedia.org/w/index.php?title=Unit_of_measurement&oldid=1061038125"^^xsd:anyURI ;
+                    cco:is_curated_in_ontology "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"^^xsd:anyURI ;
+                    rdfs:label "Measurement Unit"@en .
+
 
 ###  http://www.ontologyrepository.com/CommonCoreOntologies/OccupationRole
 cco:OccupationRole rdf:type owl:Class ;
