@@ -221,7 +221,7 @@ obo:BFO_0000019 rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000011
 :BBO_000011 rdf:type owl:Class ;
-            rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000010> ;
+            rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/OccupationRole> ;
             obo:IAO_0000115 "a basketballPlayerRole that inheres in a person who is a player for the NBA."@en ;
             rdfs:label "NBATeamPlayerRole"@en .
 
@@ -342,6 +342,13 @@ obo:BFO_0000019 rdf:type owl:Class ;
             rdfs:subClassOf cco:Artifact ;
             obo:IAO_0000115 "A material artifact used by selected players to perform on ball acts."@en ;
             rdfs:label "Basketball"@en .
+
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000029
+:BBO_000029 rdf:type owl:Class ;
+            rdfs:subClassOf cco:Facility ;
+            obo:IAO_0000115 "A facility with a basketball court that is designated to host basketball matches with an audience"@en ;
+            rdfs:label "BasketballStadium"@en .
 
 
 
