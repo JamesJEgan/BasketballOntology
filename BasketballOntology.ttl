@@ -385,28 +385,28 @@ obo:BFO_0000019 rdf:type owl:Class ;
                 rdfs:label "PointGuardRole"@en .
 
 
-###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000031
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000032
 :BBO_000031 rdf:type owl:Class ;
                 rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000030> ;
                 obo:IAO_0000115 "a role that inheres in a player who"@en ;
                 rdfs:label "ShootingGuardRole"@en .
 
 
-###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000032
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000033
 :BBO_000032 rdf:type owl:Class ;
                 rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000030> ;
                 obo:IAO_0000115 "a role that inheres in a player who"@en ;
                 rdfs:label "SmallForwardRole"@en .
 
 
-###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000033
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000034
 :BBO_000033 rdf:type owl:Class ;
                 rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000030> ;
                 obo:IAO_0000115 "a role that inheres in a player who"@en ;
                 rdfs:label "PowerForwardRole"@en .
 
 
-###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000034
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000035
 :BBO_000034 rdf:type owl:Class ;
                 rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000030> ;
                 obo:IAO_0000115 "a role that inheres in a player who"@en ;
