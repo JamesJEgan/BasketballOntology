@@ -232,16 +232,9 @@ obo:BFO_0000019 rdf:type owl:Class ;
             rdfs:label "threePointShotAct"@en .
 
 
-###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000010
-:BBO_000010 rdf:type owl:Class ;
-            rdfs:subClassOf <http://www.ontologyrepository.com/CommonCoreOntologies/OccupationRole> ;
-            obo:IAO_0000115 "an Occupation Role that inheres in a person who is a professional player for a basketball team."@en ;
-            rdfs:label "basketballPlayerRole"@en .
-
-
 ###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000011
 :BBO_000011 rdf:type owl:Class ;
-            rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000010> ;
+            rdfs:subClassOf cco:OccupationRole ;
             obo:IAO_0000115 "a basketballPlayerRole that inheres in a person who is a player for the NBA."@en ;
             rdfs:label "NBATeamPlayerRole"@en .
 
