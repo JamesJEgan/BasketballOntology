@@ -230,6 +230,21 @@ obo:BFO_0000019 rdf:type owl:Class ;
                                                                                        obo:IAO_0000115 "an intentionalMatchAct that represents any action performed intentionally by a player during a match."@en ;
                                                                                        rdfs:label "PlayerAct"@en .
 
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000045
+<http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000045> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000001> ;
+                                                                                       obo:IAO_0000115 "an intentionalMatchAct that represents any action performed intentionally by a referee during a match."@en ;
+                                                                                       rdfs:label "JudgeAct"@en .
+
+
+###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000046
+<http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000046> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000001> ;
+                                                                                       obo:IAO_0000115 "an intentionalMatchAct that represents the act of adding points to the score tally by the scorekeeper."@en ;
+                                                                                       rdfs:label "ScoreAct"@en .
+
+
 ###  http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000003
 <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000003> rdf:type owl:Class ;
                                                                                        rdfs:subClassOf <http://www.semanticweb.org/jamesegan/ontologies/2023/9/BasketballOntology/BBO_000002> ;
